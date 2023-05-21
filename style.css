@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+body{
+    display: flex;
+}
+div.container{
+    background-color: white;
+    min-width:55% ;
+    display: flex;
+    justify-content: flex-end;
+}
+div.smallcont{
+    padding: 56px 66px 0px 0px;
+    min-width: 700px;
+    justify-content: flex-end; 
+}
+div.chota{
+    width: 572px;
+    height: 41.5px;
+    background-color: white;
+    margin-left: 30px;  
+}
+div.container div.smallcont div.chota img{
+    height: 41.5px;
+    width: 250px;
+    margin: 0px 190px;
+}
+header{
+    height: 41.5px;
+}
+p.order{
+    position: relative;
+    left: 70px;
+    top: 0px;
+}
+h2.user{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+div.container div.smallcont img{
+    width: 50px;
+    
+}
+h3{
+    font-weight: 700;
+}
+div.reorder{
+    width: 570px;
+    height: 131px;
+    border: #E6E6E6 solid 10px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+div.button{
+    width: 175.98px;
+    height: 49.8px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+div.box{
+    width: 572px;
+    height: 83.2px;
+    border: #E6E6E6 solid 2px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+div.box2{
+    width: 572px;
+    height: 133.68px;
+    border: #E6E6E6 solid 2px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+div.button2{
+    width: 256px;
+    height: 42px;
+    border: #E6E6E6 solid 2px;
+    margin-top: 10px;
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+    justify-content: center;
+}
+div.customer{
+    width: 572px;
+    height: 364.8;
+    border: #E6E6E6 solid 2px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+div.customerbox{
+    width:547px ;
+    height: 318.6px;
+    padding: 16px 0px 0px 0px;
+    display: flex;
+    flex-direction:row ;
+}
+div.chhotabox{
+    width: 258.7px;
+    height: 286.6px;
+}
+div.ekorbox{
+    width: 258.7px;
+    height: 286.6px;
+    justify-content: end;
+    margin-left: 20px;
+}
+div.container div.smallcont div.customer div.customerbox p{
+    padding-top: 8px;
+    font-weight:lighter ;
+    
+}
+li{
+    list-style: none;
+}
+div.needhelp{
+    position: relative;
+    left: 450px;
+    margin-top: 30px;
+}
+div.refund{
+    width: 572px;
+    height: 53px;
+    position: relative;
+    margin: 0px auto;
+    top: 120px;
+    border-top:solid #E6E6E6 2px ;
+    display: flex;
+    justify-content: space-between;
+}
+div.para{
+    padding-top: 20px;
+}
+div.container2{
+    background-color: #D1E8E2;
+    min-width: 45%;
+    height: 1230.88px;
+    justify-content:flex-end;
+    border-left: #BCD1CB 2px solid;
+}
+div.smallcont2{
+    padding: 56px 0px 0px 44px;
+    width: 462px;
+    height:1230.88px;
+}
+div.order_summary{
+    width: 418px;
+    height: 98px;
+    border-bottom: solid 3px grey;
+    padding-top: 10px;
+    display: flex;
+}
+div.shoebox{
+    width: 64.4px;
+    height: 64.4px;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+div.shoebox img{
+    width: 65px;
+}
+div.bi1{
+    width: 21.11px;
+    height: 21px;      
+    background-color: #7B7E7D;
+    position: relative;
+    left: -15px;
+    top: -10px;
+    border-radius: 50px;
+    color: white;
+}
+div.type{
+    width: 259.44px;
+    height: 64.4px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    padding-top:10px;
+}
+div.type p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+div.price{
+    width: 80.16px;
+    height: 64.4px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+div.summary_section{
+    width: 418px;
+    height: 155.5px;
+    padding: 21px 0px;
+    display: flex;
+}
+div.danda{
+    width: 304.32px;
+    height: 18.2px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: end;
+}
